@@ -58,7 +58,9 @@ def get_locations(cells):
 def get_moves(player):
     """Based on the tuple of the players position, return the list of acceptable moves
 
-
+    >>> GAME_DIMENSIONS = (2,2)
+    >>> get_moves((0,2))
+    ['RIGHT','UP','DOWN']
 
     """
     x, y = player
